@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, ImageBackground, Pressable } from 'react-native'
 import React from 'react'
-import imageBgTest from '@/assets/images/Background.png'
+import imageBgTest from '@/assets/images/background-main.png'
 import { Link } from 'expo-router'
 const app = () => {
   return (
@@ -14,7 +14,7 @@ const app = () => {
 
         <Link href='/explore' style={{ marginHorizontal: 'auto' }} asChild>
           <Pressable style={styles.button}>
-            <Text style = {styles.buttonText}>Explore</Text>
+            <Text style = {styles.buttonText}>Contact</Text>
           </Pressable>
         </Link>
       </ImageBackground>
